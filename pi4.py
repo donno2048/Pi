@@ -1,2 +1,4 @@
-def m(l):return l[0] * m(l[1:]) if len(l) else 1
-def pi(precision):return 2 * m([4 * j ** 2 / (4 * j ** 2 - 1) for j in range(1, precision + 1)])
+def pi(precision):
+  i = 2
+  for j in range(1, precision + 1): i *= 4 * j ** 2 / (4 * j ** 2 - 1)
+  return i
