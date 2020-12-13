@@ -5,4 +5,4 @@ Mathematically they all converges to pi but python has limited accuracy causes e
 
 I ran each one to the maximum accuracy it can get (if the time isn't huge) and printed the output
 
-To run it just ran _main.py_
+To run it just run _main.py_
